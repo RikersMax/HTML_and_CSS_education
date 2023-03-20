@@ -1,0 +1,198 @@
+
+
+
+
+/* контенд */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+span {
+	font-size: 24px;
+	font-style: italic; 
+	background-color: rgba(100,250,0,0.150);
+	color: red;
+	font-weight: bold;
+	
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+ul {
+	/*list-style:lower-latin;*/
+}
+
+.myimg {
+	height: 150px;
+	width: 250px;
+
+}
+
+.my-list {
+	font-size: 24px;
+}
+
+.conteiner-for-ol {
+	width: 250px;
+	border-style: solid;
+/*	border: dashed red;*/
+	border-width: 0.5px; 
+	border-color: red;
+	display: inline-block;	
+/*	padding-right: 10px;*/
+	
+
+}
+.conteiner-for-ol>p{
+	text-align: center;	
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.div-line {
+	margin-top: 10px; 
+	display: inline-block;
+	
+}
+
+.img-conteiner {
+	float: right;
+	padding: 5px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: blue;
+	margin-left: 10px;
+}
+
+.img-conteiner>div{
+	display: flex;
+	flex-direction: column;		
+	align-items: center;
+}
+
+.logo-html {
+	width: 100px;
+	margin: 10px;
+
+}
+
+
+
+
+
+/* навиг. панель*/
+
+.nav-bar-conteiner {
+	display: flex;
+	justify-content: space-between;
+}
+                                       
+.nav-bar-conteiner>nav>ul {     
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+	background-color: rgb(166, 222, 248);
+}
+
+.nav-bar-conteiner>nav>ul>li>a {
+	display: block;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0.5px;	                      	
+}
+
+
+@media (max-width: 900px) {
+	.nav-bar-conteiner {
+		flex-direction: column;
+	}
+}
+
+/*input {
+	margin: 5px; 
+	padding: 5px;
+
+}*/
+
+input {
+    width: 250px;
+    padding: 5px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+/* страница */
+
+.page-text {
+	padding-left: 15px;
+}
+
+.page {
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	width: 14%; 
+	background-color: aquamarine;
+}
+
+.sectia {
+	width: 82%;
+}
+
+.header>ul {
+	list-style: none;
+	border-bottom-style: solid;
+	border-width: 0.5px;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin: 10px; 
+}
+
+.header>div {
+	width: 100%;	
+
+}
+
+.header>div>img {
+ 	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
