@@ -1,0 +1,37 @@
+
+
+
+
+.nav-bar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #007765;
+	width: auto;
+	height: 85px;
+}
+
+.nav-menu>ul {
+	display: flex;
+	list-style: none;		
+}
+
+.nav-menu>ul>li {
+	color: white;
+	font-size: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#ppc-center {	
+	border-left: solid 0.5px;
+	border-right: solid 0.5px;	
+}
+
+.nav-menu>ul>li>a {
+	text-decoration: none;
+	color: white;
+}
+.nav-menu>ul>li>a:hover {
+	color: #000
+}
